@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  NetworkReds
+//
+//  Created by 方新俊 on 16/7/4.
+//  Copyright © 2016年 方新俊. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  Color
+ */
+#define NRColor_alpha(r, g, b, a)   [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define NRColor(r, g, b)            NRColor_alpha(r, g, b, 1.0)
+/**
+ *  主色橙色
+ */
+#define NROrangeColor                       NRColor(255, 131, 71)
+/**
+ *  正文颜色
+ */
+#define NRBlackTextColor                    NRColor(81, 81, 81)
+
+
+
+#define NRScreenWidth               [[UIScreen mainScreen] bounds].size.width
+#define NRScreenHeight              [[UIScreen mainScreen] bounds].size.height
+
+
+
+
+#import "UIStoryboard+Utilities.h"
+#import "UIBarButtonItem+Utilities.h"
+#import "UIImage+Utilities.h"
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED61D1291D2A2EEA003DAF98 /* NRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D1281D2A2EEA003DAF98 /* NRTabBarController.m */; };
+		ED61D12C1D2A2F41003DAF98 /* NRTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D12B1D2A2F41003DAF98 /* NRTabBar.m */; };
+		ED61D12F1D2A3005003DAF98 /* NRTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D12E1D2A3005003DAF98 /* NRTabbarButton.m */; };
+		ED61D1331D2A3523003DAF98 /* NRBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D1321D2A3522003DAF98 /* NRBadgeButton.m */; };
+		ED61D13C1D2A38EF003DAF98 /* UIStoryboard+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D13B1D2A38EF003DAF98 /* UIStoryboard+Utilities.m */; };
+		ED61D13F1D2A39BE003DAF98 /* NRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D13E1D2A39BE003DAF98 /* NRNavigationController.m */; };
+		ED61D1421D2A3A10003DAF98 /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D1411D2A3A10003DAF98 /* UIImage+Utilities.m */; };
+		ED61D1451D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D1441D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.m */; };
+		ED61D14B1D2A3E1D003DAF98 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61D14A1D2A3E1D003DAF98 /* Home.storyboard */; };
+		ED61D15A1D2A3F30003DAF98 /* NRHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D1591D2A3F30003DAF98 /* NRHomeVC.m */; };
+		ED61D15D1D2A3F57003DAF98 /* NRCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D15C1D2A3F57003DAF98 /* NRCategoryVC.m */; };
+		ED61D1601D2A3F78003DAF98 /* NRAdListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D15F1D2A3F78003DAF98 /* NRAdListVC.m */; };
+		ED61D1631D2A3FBB003DAF98 /* NRMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61D1621D2A3FBB003DAF98 /* NRMeVC.m */; };
+		ED61D1651D2A400F003DAF98 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61D1641D2A400F003DAF98 /* Category.storyboard */; };
+		ED61D1671D2A404F003DAF98 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61D1661D2A404F003DAF98 /* Me.storyboard */; };
+		ED61D1691D2A42B4003DAF98 /* Ad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61D1681D2A42B4003DAF98 /* Ad.storyboard */; };
+		ED7506941D281A9800E77012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7506931D281A9800E77012 /* main.m */; };
+		ED7506971D281A9800E77012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7506961D281A9800E77012 /* AppDelegate.m */; };
+		ED75069D1D281A9800E77012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75069B1D281A9800E77012 /* Main.storyboard */; };
+		ED75069F1D281A9800E77012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75069E1D281A9800E77012 /* Assets.xcassets */; };
+		ED7506A21D281A9800E77012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7506A01D281A9800E77012 /* LaunchScreen.storyboard */; };
+		ED7506AD1D281A9800E77012 /* NetworkRedsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7506AC1D281A9800E77012 /* NetworkRedsTests.m */; };
+		ED7506B81D281A9800E77012 /* NetworkRedsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7506B71D281A9800E77012 /* NetworkRedsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7506A91D281A9800E77012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7506871D281A9800E77012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED75068E1D281A9800E77012;
+			remoteInfo = NetworkReds;
+		};
+		ED7506B41D281A9800E77012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7506871D281A9800E77012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED75068E1D281A9800E77012;
+			remoteInfo = NetworkReds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED61D1271D2A2EEA003DAF98 /* NRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRTabBarController.h; sourceTree = "<group>"; };
+		ED61D1281D2A2EEA003DAF98 /* NRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRTabBarController.m; sourceTree = "<group>"; };
+		ED61D12A1D2A2F41003DAF98 /* NRTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRTabBar.h; sourceTree = "<group>"; };
+		ED61D12B1D2A2F41003DAF98 /* NRTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRTabBar.m; sourceTree = "<group>"; };
+		ED61D12D1D2A3005003DAF98 /* NRTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRTabbarButton.h; sourceTree = "<group>"; };
+		ED61D12E1D2A3005003DAF98 /* NRTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRTabbarButton.m; sourceTree = "<group>"; };
+		ED61D1301D2A3205003DAF98 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ED61D1311D2A3522003DAF98 /* NRBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRBadgeButton.h; sourceTree = "<group>"; };
+		ED61D1321D2A3522003DAF98 /* NRBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRBadgeButton.m; sourceTree = "<group>"; };
+		ED61D13A1D2A38EF003DAF98 /* UIStoryboard+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Utilities.h"; sourceTree = "<group>"; };
+		ED61D13B1D2A38EF003DAF98 /* UIStoryboard+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Utilities.m"; sourceTree = "<group>"; };
+		ED61D13D1D2A39BE003DAF98 /* NRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRNavigationController.h; sourceTree = "<group>"; };
+		ED61D13E1D2A39BE003DAF98 /* NRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRNavigationController.m; sourceTree = "<group>"; };
+		ED61D1401D2A3A10003DAF98 /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utilities.h"; sourceTree = "<group>"; };
+		ED61D1411D2A3A10003DAF98 /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utilities.m"; sourceTree = "<group>"; };
+		ED61D1431D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Utilities.h"; sourceTree = "<group>"; };
+		ED61D1441D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Utilities.m"; sourceTree = "<group>"; };
+		ED61D14A1D2A3E1D003DAF98 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ED61D1581D2A3F30003DAF98 /* NRHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRHomeVC.h; sourceTree = "<group>"; };
+		ED61D1591D2A3F30003DAF98 /* NRHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRHomeVC.m; sourceTree = "<group>"; };
+		ED61D15B1D2A3F57003DAF98 /* NRCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRCategoryVC.h; sourceTree = "<group>"; };
+		ED61D15C1D2A3F57003DAF98 /* NRCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRCategoryVC.m; sourceTree = "<group>"; };
+		ED61D15E1D2A3F78003DAF98 /* NRAdListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRAdListVC.h; sourceTree = "<group>"; };
+		ED61D15F1D2A3F78003DAF98 /* NRAdListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRAdListVC.m; sourceTree = "<group>"; };
+		ED61D1611D2A3FBB003DAF98 /* NRMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRMeVC.h; sourceTree = "<group>"; };
+		ED61D1621D2A3FBB003DAF98 /* NRMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRMeVC.m; sourceTree = "<group>"; };
+		ED61D1641D2A400F003DAF98 /* Category.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
+		ED61D1661D2A404F003DAF98 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		ED61D1681D2A42B4003DAF98 /* Ad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ad.storyboard; sourceTree = "<group>"; };
+		ED75068F1D281A9800E77012 /* NetworkReds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkReds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7506931D281A9800E77012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7506951D281A9800E77012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7506961D281A9800E77012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED75069C1D281A9800E77012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED75069E1D281A9800E77012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7506A11D281A9800E77012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7506A31D281A9800E77012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7506A81D281A9800E77012 /* NetworkRedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkRedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7506AC1D281A9800E77012 /* NetworkRedsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRedsTests.m; sourceTree = "<group>"; };
+		ED7506AE1D281A9800E77012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7506B31D281A9800E77012 /* NetworkRedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkRedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7506B71D281A9800E77012 /* NetworkRedsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRedsUITests.m; sourceTree = "<group>"; };
+		ED7506B91D281A9800E77012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED75068C1D281A9800E77012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7506A51D281A9800E77012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7506B01D281A9800E77012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED61D1261D2A2EB0003DAF98 /* NRTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1271D2A2EEA003DAF98 /* NRTabBarController.h */,
+				ED61D1281D2A2EEA003DAF98 /* NRTabBarController.m */,
+				ED61D12A1D2A2F41003DAF98 /* NRTabBar.h */,
+				ED61D12B1D2A2F41003DAF98 /* NRTabBar.m */,
+				ED61D12D1D2A3005003DAF98 /* NRTabbarButton.h */,
+				ED61D12E1D2A3005003DAF98 /* NRTabbarButton.m */,
+				ED61D1311D2A3522003DAF98 /* NRBadgeButton.h */,
+				ED61D1321D2A3522003DAF98 /* NRBadgeButton.m */,
+				ED61D13D1D2A39BE003DAF98 /* NRNavigationController.h */,
+				ED61D13E1D2A39BE003DAF98 /* NRNavigationController.m */,
+			);
+			path = NRTabBarController;
+			sourceTree = "<group>";
+		};
+		ED61D1351D2A3856003DAF98 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1361D2A387D003DAF98 /* Category */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		ED61D1361D2A387D003DAF98 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1431D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.h */,
+				ED61D1441D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.m */,
+				ED61D1401D2A3A10003DAF98 /* UIImage+Utilities.h */,
+				ED61D1411D2A3A10003DAF98 /* UIImage+Utilities.m */,
+				ED61D13A1D2A38EF003DAF98 /* UIStoryboard+Utilities.h */,
+				ED61D13B1D2A38EF003DAF98 /* UIStoryboard+Utilities.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ED61D1461D2A3C88003DAF98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D14C1D2A3E7C003DAF98 /* Control */,
+				ED61D14D1D2A3E7C003DAF98 /* View */,
+				ED61D14E1D2A3E7C003DAF98 /* Model */,
+				ED61D14A1D2A3E1D003DAF98 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ED61D1471D2A3CCE003DAF98 /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D14F1D2A3E88003DAF98 /* Control */,
+				ED61D1501D2A3E88003DAF98 /* View */,
+				ED61D1511D2A3E88003DAF98 /* Model */,
+				ED61D1641D2A400F003DAF98 /* Category.storyboard */,
+			);
+			path = Cat;
+			sourceTree = "<group>";
+		};
+		ED61D1481D2A3D29003DAF98 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1521D2A3E95003DAF98 /* Control */,
+				ED61D1531D2A3E95003DAF98 /* View */,
+				ED61D1541D2A3E95003DAF98 /* Model */,
+				ED61D1681D2A42B4003DAF98 /* Ad.storyboard */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		ED61D1491D2A3D42003DAF98 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1551D2A3E9E003DAF98 /* Control */,
+				ED61D1561D2A3E9E003DAF98 /* View */,
+				ED61D1571D2A3E9E003DAF98 /* Model */,
+				ED61D1661D2A404F003DAF98 /* Me.storyboard */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		ED61D14C1D2A3E7C003DAF98 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1581D2A3F30003DAF98 /* NRHomeVC.h */,
+				ED61D1591D2A3F30003DAF98 /* NRHomeVC.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		ED61D14D1D2A3E7C003DAF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED61D14E1D2A3E7C003DAF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED61D14F1D2A3E88003DAF98 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D15B1D2A3F57003DAF98 /* NRCategoryVC.h */,
+				ED61D15C1D2A3F57003DAF98 /* NRCategoryVC.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		ED61D1501D2A3E88003DAF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED61D1511D2A3E88003DAF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED61D1521D2A3E95003DAF98 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D15E1D2A3F78003DAF98 /* NRAdListVC.h */,
+				ED61D15F1D2A3F78003DAF98 /* NRAdListVC.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		ED61D1531D2A3E95003DAF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED61D1541D2A3E95003DAF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED61D1551D2A3E9E003DAF98 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1611D2A3FBB003DAF98 /* NRMeVC.h */,
+				ED61D1621D2A3FBB003DAF98 /* NRMeVC.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		ED61D1561D2A3E9E003DAF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED61D1571D2A3E9E003DAF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED7506861D281A9800E77012 = {
+			isa = PBXGroup;
+			children = (
+				ED7506911D281A9800E77012 /* NetworkReds */,
+				ED7506AB1D281A9800E77012 /* NetworkRedsTests */,
+				ED7506B61D281A9800E77012 /* NetworkRedsUITests */,
+				ED7506901D281A9800E77012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7506901D281A9800E77012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED75068F1D281A9800E77012 /* NetworkReds.app */,
+				ED7506A81D281A9800E77012 /* NetworkRedsTests.xctest */,
+				ED7506B31D281A9800E77012 /* NetworkRedsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7506911D281A9800E77012 /* NetworkReds */ = {
+			isa = PBXGroup;
+			children = (
+				ED61D1461D2A3C88003DAF98 /* Home */,
+				ED61D1471D2A3CCE003DAF98 /* Cat */,
+				ED61D1481D2A3D29003DAF98 /* AD */,
+				ED61D1491D2A3D42003DAF98 /* Me */,
+				ED61D1261D2A2EB0003DAF98 /* NRTabBarController */,
+				ED61D1351D2A3856003DAF98 /* other */,
+				ED7506951D281A9800E77012 /* AppDelegate.h */,
+				ED7506961D281A9800E77012 /* AppDelegate.m */,
+				ED75069B1D281A9800E77012 /* Main.storyboard */,
+				ED75069E1D281A9800E77012 /* Assets.xcassets */,
+				ED7506A01D281A9800E77012 /* LaunchScreen.storyboard */,
+				ED7506A31D281A9800E77012 /* Info.plist */,
+				ED7506921D281A9800E77012 /* Supporting Files */,
+			);
+			path = NetworkReds;
+			sourceTree = "<group>";
+		};
+		ED7506921D281A9800E77012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7506931D281A9800E77012 /* main.m */,
+				ED61D1301D2A3205003DAF98 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7506AB1D281A9800E77012 /* NetworkRedsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7506AC1D281A9800E77012 /* NetworkRedsTests.m */,
+				ED7506AE1D281A9800E77012 /* Info.plist */,
+			);
+			path = NetworkRedsTests;
+			sourceTree = "<group>";
+		};
+		ED7506B61D281A9800E77012 /* NetworkRedsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7506B71D281A9800E77012 /* NetworkRedsUITests.m */,
+				ED7506B91D281A9800E77012 /* Info.plist */,
+			);
+			path = NetworkRedsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED75068E1D281A9800E77012 /* NetworkReds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7506BC1D281A9800E77012 /* Build configuration list for PBXNativeTarget "NetworkReds" */;
+			buildPhases = (
+				ED75068B1D281A9800E77012 /* Sources */,
+				ED75068C1D281A9800E77012 /* Frameworks */,
+				ED75068D1D281A9800E77012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkReds;
+			productName = NetworkReds;
+			productReference = ED75068F1D281A9800E77012 /* NetworkReds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7506A71D281A9800E77012 /* NetworkRedsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7506BF1D281A9800E77012 /* Build configuration list for PBXNativeTarget "NetworkRedsTests" */;
+			buildPhases = (
+				ED7506A41D281A9800E77012 /* Sources */,
+				ED7506A51D281A9800E77012 /* Frameworks */,
+				ED7506A61D281A9800E77012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7506AA1D281A9800E77012 /* PBXTargetDependency */,
+			);
+			name = NetworkRedsTests;
+			productName = NetworkRedsTests;
+			productReference = ED7506A81D281A9800E77012 /* NetworkRedsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED7506B21D281A9800E77012 /* NetworkRedsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7506C21D281A9800E77012 /* Build configuration list for PBXNativeTarget "NetworkRedsUITests" */;
+			buildPhases = (
+				ED7506AF1D281A9800E77012 /* Sources */,
+				ED7506B01D281A9800E77012 /* Frameworks */,
+				ED7506B11D281A9800E77012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7506B51D281A9800E77012 /* PBXTargetDependency */,
+			);
+			name = NetworkRedsUITests;
+			productName = NetworkRedsUITests;
+			productReference = ED7506B31D281A9800E77012 /* NetworkRedsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7506871D281A9800E77012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "方新俊";
+				TargetAttributes = {
+					ED75068E1D281A9800E77012 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ED7506A71D281A9800E77012 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ED75068E1D281A9800E77012;
+					};
+					ED7506B21D281A9800E77012 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ED75068E1D281A9800E77012;
+					};
+				};
+			};
+			buildConfigurationList = ED75068A1D281A9800E77012 /* Build configuration list for PBXProject "NetworkReds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7506861D281A9800E77012;
+			productRefGroup = ED7506901D281A9800E77012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED75068E1D281A9800E77012 /* NetworkReds */,
+				ED7506A71D281A9800E77012 /* NetworkRedsTests */,
+				ED7506B21D281A9800E77012 /* NetworkRedsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED75068D1D281A9800E77012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED61D1651D2A400F003DAF98 /* Category.storyboard in Resources */,
+				ED7506A21D281A9800E77012 /* LaunchScreen.storyboard in Resources */,
+				ED61D1671D2A404F003DAF98 /* Me.storyboard in Resources */,
+				ED75069F1D281A9800E77012 /* Assets.xcassets in Resources */,
+				ED75069D1D281A9800E77012 /* Main.storyboard in Resources */,
+				ED61D1691D2A42B4003DAF98 /* Ad.storyboard in Resources */,
+				ED61D14B1D2A3E1D003DAF98 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7506A61D281A9800E77012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7506B11D281A9800E77012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED75068B1D281A9800E77012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7506971D281A9800E77012 /* AppDelegate.m in Sources */,
+				ED61D1421D2A3A10003DAF98 /* UIImage+Utilities.m in Sources */,
+				ED61D1631D2A3FBB003DAF98 /* NRMeVC.m in Sources */,
+				ED61D12C1D2A2F41003DAF98 /* NRTabBar.m in Sources */,
+				ED7506941D281A9800E77012 /* main.m in Sources */,
+				ED61D15D1D2A3F57003DAF98 /* NRCategoryVC.m in Sources */,
+				ED61D13C1D2A38EF003DAF98 /* UIStoryboard+Utilities.m in Sources */,
+				ED61D1601D2A3F78003DAF98 /* NRAdListVC.m in Sources */,
+				ED61D1331D2A3523003DAF98 /* NRBadgeButton.m in Sources */,
+				ED61D12F1D2A3005003DAF98 /* NRTabbarButton.m in Sources */,
+				ED61D1451D2A3A8A003DAF98 /* UIBarButtonItem+Utilities.m in Sources */,
+				ED61D1291D2A2EEA003DAF98 /* NRTabBarController.m in Sources */,
+				ED61D13F1D2A39BE003DAF98 /* NRNavigationController.m in Sources */,
+				ED61D15A1D2A3F30003DAF98 /* NRHomeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7506A41D281A9800E77012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7506AD1D281A9800E77012 /* NetworkRedsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7506AF1D281A9800E77012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7506B81D281A9800E77012 /* NetworkRedsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7506AA1D281A9800E77012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED75068E1D281A9800E77012 /* NetworkReds */;
+			targetProxy = ED7506A91D281A9800E77012 /* PBXContainerItemProxy */;
+		};
+		ED7506B51D281A9800E77012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED75068E1D281A9800E77012 /* NetworkReds */;
+			targetProxy = ED7506B41D281A9800E77012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED75069B1D281A9800E77012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED75069C1D281A9800E77012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7506A01D281A9800E77012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7506A11D281A9800E77012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7506BA1D281A9800E77012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7506BB1D281A9800E77012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7506BD1D281A9800E77012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/fangxinjun/Desktop/NetworkReds/NetworkReds/PrefixHeader.pch;
+				INFOPLIST_FILE = NetworkReds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiangSuBaoHe.NetworkReds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED7506BE1D281A9800E77012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/fangxinjun/Desktop/NetworkReds/NetworkReds/PrefixHeader.pch;
+				INFOPLIST_FILE = NetworkReds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiangSuBaoHe.NetworkReds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED7506C01D281A9800E77012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkRedsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiangSuBaoHe.NetworkRedsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkReds.app/NetworkReds";
+			};
+			name = Debug;
+		};
+		ED7506C11D281A9800E77012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkRedsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiangSuBaoHe.NetworkRedsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkReds.app/NetworkReds";
+			};
+			name = Release;
+		};
+		ED7506C31D281A9800E77012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkRedsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiangSuBaoHe.NetworkRedsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkReds;
+			};
+			name = Debug;
+		};
+		ED7506C41D281A9800E77012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkRedsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiangSuBaoHe.NetworkRedsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkReds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED75068A1D281A9800E77012 /* Build configuration list for PBXProject "NetworkReds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7506BA1D281A9800E77012 /* Debug */,
+				ED7506BB1D281A9800E77012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7506BC1D281A9800E77012 /* Build configuration list for PBXNativeTarget "NetworkReds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7506BD1D281A9800E77012 /* Debug */,
+				ED7506BE1D281A9800E77012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7506BF1D281A9800E77012 /* Build configuration list for PBXNativeTarget "NetworkRedsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7506C01D281A9800E77012 /* Debug */,
+				ED7506C11D281A9800E77012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7506C21D281A9800E77012 /* Build configuration list for PBXNativeTarget "NetworkRedsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7506C31D281A9800E77012 /* Debug */,
+				ED7506C41D281A9800E77012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7506871D281A9800E77012 /* Project object */;
+}
